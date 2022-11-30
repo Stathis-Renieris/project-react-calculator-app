@@ -1,0 +1,27 @@
+.calculator {
+  width: 340px;
+  min-height: 540px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #e0e0e0;
+  border: 1px solid #fff;
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  position: relative;
+  transform-style: preserve-3d;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.calculator::after {
+  position: absolute;
+  transform: translateZ(-1px);
+  top: 0px;
+  left: 0px;
+  content: "";
+  width: 345px;
+  min-height: 545px;
+  background-color: rgb(99, 99, 99);
+  box-shadow: 10px 10px 25px rgba(0, 0, 0, 0.5);
+  border-radius: 13px;
+}

@@ -1,0 +1,37 @@
+.button {
+  border: none;
+  background-color: #e0e0e0;
+  font-size: 1.5rem;
+  color: rgb(160, 160, 160);
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 15px;
+  outline: none;
+  box-shadow: 7px 7px 14px #c7c7c7, -7px -7px 14px #f9f9f9;
+  /* text-shadow: -1px -1px 1px #858585, 1px 1px 2px #fff; */
+}
+
+.button:hover {
+  background-color: #dadada;
+}
+
+.button:active {
+  background-color: #e0e0e0;
+  box-shadow: inset 7px 7px 14px #c7c7c7, inset -7px -7px 14px #f9f9f9;
+  font-size: 1.3rem;
+}
+
+.equals {
+  grid-column: 3 / 5;
+  background-color: #c5c5c5;
+  color: #fff;
+}
+
+.equals:hover {
+  background-color: #bdbdbd;
+}
+
+.equals:active {
+  background-color: #c7c7c7;
+  box-shadow: inset 7px 7px 14px #b4b4b4, inset -7px -7px 14px #dfdfdf;
+}

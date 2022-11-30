@@ -1,0 +1,12 @@
+.screen {
+  height: 100px;
+  width: 100%;
+  padding: 0 10px;
+  background-color: #b4b4b4;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  color: white;
+  font-weight: bold;
+}
