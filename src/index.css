@@ -7,8 +7,23 @@
   font-family: "Montserrat", sans-serif;
 }
 
+header,
+footer {
+  background-color: #e0e0e0;
+  color: #2b2b2b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+a {
+  color: inherit;
+}
+
 main {
-  height: 100vh;
+  padding: 2rem 0;
   display: flex;
   align-items: center;
   justify-content: center;

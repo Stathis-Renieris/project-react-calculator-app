@@ -25,6 +25,7 @@
   grid-column: 3 / 5;
   background-color: #c5c5c5;
   color: #fff;
+  box-shadow: 7px 7px 14px #c0c0c0, -7px -7px 14px #f9f9f9;
 }
 
 .equals:hover {

@@ -4,6 +4,10 @@
   padding: 0 10px;
   background-color: #b4b4b4;
   border-radius: 10px;
+  border-left: 1px solid #8b8b8b;
+  border-top: 1px solid #8b8b8b;
+  border-right: 2px solid #fff;
+  border-bottom: 2px solid #fff;
   display: flex;
   align-items: center;
   justify-content: flex-end;
