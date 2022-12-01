@@ -3,12 +3,14 @@
   background-color: #e0e0e0;
   font-size: 1.5rem;
   color: rgb(160, 160, 160);
+  /* text-shadow: -1px -1px 1px #858585, 1px 1px 2px #fff; */
   font-weight: bold;
   cursor: pointer;
   border-radius: 15px;
   outline: none;
   box-shadow: 7px 7px 14px #c7c7c7, -7px -7px 14px #f9f9f9;
-  /* text-shadow: -1px -1px 1px #858585, 1px 1px 2px #fff; */
+  /* remove mobile chrome blue highlight when tap */
+  -webkit-tap-highlight-color: transparent;
 }
 
 .button:hover {
